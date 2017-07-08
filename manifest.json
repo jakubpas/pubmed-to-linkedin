@@ -1,0 +1,17 @@
+{
+   "author": "Jakub Pas",
+   "content_scripts": [ {
+      "js": [ "jquery.min.js", "script.js" ],
+      "matches": [ "https://www.linkedin.com/in/*" ]
+   } ],
+   "description": "Load publications to LinkedIn from PubMed IDs or DOIs.",
+   "icons": {
+      "128": "pubmed_linkedin.png"
+   },
+   "manifest_version": 2,
+   "name": "Linkedin Publication Import",
+   "permissions": [ "http://eutils.ncbi.nlm.nih.gov/","http://dx.doi.org/" ],
+   "short_name": "LinkedinPublicationImport",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
