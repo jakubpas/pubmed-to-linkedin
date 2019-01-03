@@ -1,6 +1,6 @@
 ## PubMed/DOI Entry to LinkedIn Google Chrome Extension
 
-(c) 2017 by jakubpas@gmail.com<Jakub Pas>
+(c) 2017 by Jakub Pas
 
 Allows conveniently adding publications to LinkedIn Profile via PubMed ID or DOI
 
